@@ -1,0 +1,47 @@
+{
+  "name": "@aplus/bundle",
+  "version": "0.0.5-beta.1",
+  "description": "Alloy+ Bundle of Goodies (alloy+ core and assortment of plugins)",
+  "keywords": [
+    "Appcelerator",
+    "Alloy",
+    "MobileHero",
+    "Alloy+",
+    "aplus"
+  ],
+  "homepage": "git://github.com/mobilehero/aplus-bundle",
+  "bugs": {
+    "url": "https://github.com/mobilehero/aplus-bundle/issues",
+    "email": "info@mobilehero.me"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Brenton House",
+    "email": "brenton.house@gmail.com",
+    "url": "https://github.com/brentonhouse"
+  },
+  "scripts": {
+    "add": "git add -A",
+    "add-version": "npm run add && node scripts/version",
+    "push": "npm run add-version --",
+    "postpush": "git push",
+    "autopull": "node scripts/autopull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mobilehero/aplus-bundle.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "@aplus/babel": "0.0.5-beta.1",
+    "@aplus/core": "0.0.5-beta.1",
+    "@aplus/node": "0.0.5-beta.1",
+    "@aplus/npm": "0.0.5-beta.1",
+    "@aplus/underscore": "0.0.5-beta.3"
+  },
+  "devDependencies": {
+    "semver": "^5.1.0"
+  }
+}
