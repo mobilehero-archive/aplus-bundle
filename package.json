@@ -1,6 +1,6 @@
 {
   "name": "@aplus/bundle",
-  "version": "0.0.5-beta.2",
+  "version": "0.0.5-beta.3",
   "description": "Alloy+ Bundle of Goodies (alloy+ core and assortment of plugins)",
   "keywords": [
     "Appcelerator",
@@ -22,8 +22,10 @@
   },
   "scripts": {
     "add": "git add -A",
-    "add-version": "npm run add && node scripts/version",
-    "push": "npm run add-version --",
+    "preadd-version": "npm run add",
+    "add-version": "node scripts/version",
+    "push": "npm run commit --",
+    "commit": "npm run add-version --",
     "postpush": "git push",
     "autopull": "node scripts/autopull"
   },
