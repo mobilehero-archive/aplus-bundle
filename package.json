@@ -1,6 +1,6 @@
 {
   "name": "@aplus/bundle",
-  "version": "0.0.5-beta.4",
+  "version": "0.0.5-beta.5",
   "description": "Alloy+ Bundle of Goodies (alloy+ core and assortment of plugins)",
   "keywords": [
     "Appcelerator",
@@ -37,11 +37,11 @@
     "node": ">=0.10"
   },
   "dependencies": {
-    "@aplus/babel": "0.0.5-beta.1",
-    "@aplus/core": "0.0.5-beta.1",
-    "@aplus/node": "0.0.5-beta.1",
-    "@aplus/npm": "0.0.5-beta.1",
-    "@aplus/underscore": "0.0.5-beta.3"
+    "@aplus/babel": "0.0.5-beta.6",
+    "@aplus/core": "0.0.5-beta.4",
+    "@aplus/node": "0.0.5-beta.5",
+    "@aplus/npm": "0.0.5-beta.5",
+    "@aplus/underscore": "0.0.5-beta.6"
   },
   "devDependencies": {
     "semver": "^5.1.0"
